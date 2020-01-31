@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700|Work+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/7fa246b183.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main-style.css" />
+    <link rel="stylesheet" href="/main-nav.css" />
+    <link rel="stylesheet" href="./slider.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../pages/welcome/welcome.html">About</a></li>
+
+        <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+        <li>
+          <a href="../contacts/contacts.html">Contacts</a>
+          <ul class="contact-icons">
+            <li>
+              <a href="mailto:edu.neto@icloud.com">
+                <img
+                  class="icon-link"
+                  src="https://res.cloudinary.com/ygiah/image/upload/v1574704888/bootcamp/letter-icon-white.svg"
+                  alt="email-link"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="tel:+4407478801847">
+                <img
+                  class="icon-link"
+                  src="https://res.cloudinary.com/ygiah/image/upload/v1574704902/bootcamp/mobile-icon-white.svg"
+                  alt="phone-link"
+                />
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/edu.neto.75" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/eduardo-neto-b71bb36b/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Eduardo-YGIAH" target="_blank"><i class="fab fa-github-square"></i></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <h2 class="logo"><a href="../../index.html">Eduardo Neto</a></h2>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+    <header class="wrapper">
+      <h1 class="heading">
+        My Portfolio
+      </h1>
+    </header>
+    <div class="wrapper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- <a href="https://fluirtalento.com" target="_blank"> -->
+          <div class="swiper-slide" style="background-image:url(images/Fluirtalento.png); position: relative;">
+            <div class="label">
+              <a href="https://fluirtalento.com" target="_blank">Industrial and Comercial Equipment for Hospitality</a>
+            </div>
+          </div>
+          <!-- </a> -->
+          <div class="swiper-slide" style="background-image:url(images/Nails-by-Ludmyla.png)">
+            <div class="label">
+              <a href="https://ludmylla.com" target="_blank">Manicure and Pedicure Services</a>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/SpotWebDev.png)">
+            <div class="label">
+              <a href="https://spotwebdev.com" target="_blank">Web Design and Digital Marketing Services</a>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="background-image:url(https://res.cloudinary.com/ygiah/image/upload/v1580505113/Screenshot_2020-01-31_20.31.11_ebsrxk.png)"
+          >
+            <div class="label">
+              <a href="https://ellasbrazilianbeauty.com/" target="_blank">Beauty Salon</a>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="background-image:url(https://res.cloudinary.com/ygiah/image/upload/v1576112211/bootcamp/express_note-taker.png)"
+          >
+            <div class="label">
+              <a href="https://github.com/Eduardo-YGIAH/Note-Taker_Express" target="_blank"
+                >Application with Node and Express backend</a
+              >
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="background-image:url(https://res.cloudinary.com/ygiah/image/upload/v1574161320/bootcamp/my_daily_planner/Daily-planner-Preview.png)"
+          >
+            <div class="label">
+              <a href="https://github.com/Eduardo-YGIAH/Daily-Planner" target="_blank"
+                >Example use of 3rd party API's</a
+              >
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="background-image:url(https://res.cloudinary.com/ygiah/image/upload/v1577747087/bootcamp/employee_tracker/Screenshot_2019-12-30_at_23.01.25.png)"
+          >
+            <div class="label">
+              <a href="https://github.com/Eduardo-YGIAH/Employee-Tracker" target="_blank"
+                >A Terminal application with Node and Inquirer</a
+              >
+            </div>
+            <div
+              class="swiper-slide"
+              style="background-image:url(https://res.cloudinary.com/ygiah/image/upload/v1578946239/bootcamp/Screenshot_2020-01-13_at_20.08.43.png)"
+            >
+              <div class="label">
+                <a href="https://github.com/Eduardo-YGIAH/burger" target="_blank"
+                  >Using a SQL database and CSS library Materialize</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <footer class="wrapper">
+      <p>&copy; All rights reserved</p>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="./portfolio.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+
+    <script src="/main-nav.js"></script>
+  </body>
+</html>

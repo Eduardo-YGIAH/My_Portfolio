@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Me</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700|Work+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/7fa246b183.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../main-style.css" />
+    <link rel="stylesheet" href="../../main-nav.css" />
+    <link rel="stylesheet" href="./contacts.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../pages/welcome/welcome.html">About</a></li>
+
+        <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+        <li>
+          <a href="../contacts/contacts.html">Contacts</a>
+          <ul class="contact-icons">
+            <li>
+              <a href="mailto:edu.neto@icloud.com">
+                <img
+                  class="icon-link"
+                  src="https://res.cloudinary.com/ygiah/image/upload/v1574704888/bootcamp/letter-icon-white.svg"
+                  alt="email-link"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="tel:+4407478801847">
+                <img
+                  class="icon-link"
+                  src="https://res.cloudinary.com/ygiah/image/upload/v1574704902/bootcamp/mobile-icon-white.svg"
+                  alt="phone-link"
+                />
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/edu.neto.75" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/eduardo-neto-b71bb36b/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Eduardo-YGIAH" target="_blank"><i class="fab fa-github-square"></i></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <h2 class="logo"><a href="../../index.html">Eduardo Neto</a></h2>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <form action="mailto:eduardo@spotwebdev.com" class="contact-form">
+        <h1 class="heading">
+          Get In Touch
+        </h1>
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" required name="firstName" />
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" required name="email" />
+        </div>
+        <div class="form-group">
+          <label for="message">Your message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button class="btn" type="submit">SEND</button>
+      </form>
+    </div>
+    <footer class="wrapper">
+      <p>&copy; All rights reserved</p>
+    </footer>
+    <script src="/main-nav.js"></script>
+  </body>
+</html>

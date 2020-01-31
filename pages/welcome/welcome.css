@@ -1,0 +1,45 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20%;
+}
+.heading {
+  margin-top: 3em;
+  font-weight: 400;
+}
+.sub-heading {
+  font-weight: 400;
+  margin-bottom: 4em;
+}
+
+#myImage {
+  position: absolute;
+  bottom: 0;
+  right: 1.4em;
+  height: 35vh;
+}
+
+.bio-content {
+  width: 100%;
+}
+
+.bio-content h2 {
+  padding-bottom: 0.8em;
+}
+
+.bio-content p {
+  padding-bottom: 3em;
+}
+
+@media only screen and (max-width: 800px) {
+  #myImage {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .content-wrapper {
+    padding: 0 10%;
+  }
+}

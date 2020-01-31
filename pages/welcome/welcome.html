@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About me</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700|Work+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/7fa246b183.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main-style.css" />
+    <link rel="stylesheet" href="welcome.css" />
+    <link rel="stylesheet" href="/main-nav.css" />
+    <!-- <link rel="stylesheet" href="./swiper.min.css" /> -->
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="../../pages/welcome/welcome.html">About</a></li>
+
+        <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+        <li>
+          <a href="../contacts/contacts.html">Contacts</a>
+          <ul class="contact-icons">
+            <li>
+              <a href="mailto:edu.neto@icloud.com">
+                <img
+                  class="icon-link"
+                  src="https://res.cloudinary.com/ygiah/image/upload/v1574704888/bootcamp/letter-icon-white.svg"
+                  alt="email-link"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="tel:+4407478801847">
+                <img
+                  class="icon-link"
+                  src="https://res.cloudinary.com/ygiah/image/upload/v1574704902/bootcamp/mobile-icon-white.svg"
+                  alt="phone-link"
+                />
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/edu.neto.75" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/eduardo-neto-b71bb36b/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Eduardo-YGIAH" target="_blank"><i class="fab fa-github-square"></i></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <h2 class="logo"><a href="../../index.html">Eduardo Neto</a></h2>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <h1 class="heading">Welcome to my website</h1>
+      <h3 class="sub-heading">
+        A web address created so that you can know my work and something about me...
+      </h3>
+      <section class="bio-content">
+        <h2>About me</h2>
+        <p>
+          Hi and welcome to my Portfolio website. <br />
+          My name is Eduardo and I am a 42-year-old Portuguese tech geek, born and raised in Lisbon. <br />Two years ago
+          I found myself experimenting on creating a website and a tremendous passion/obsession for learning code,
+          emerged. <br />My professional dream is to become a highly-skilled, successful web-developer.
+        </p>
+        <p>
+          Before this, I have had a highly successful career in the hospitality sector, working my way up to Head
+          Sommelier and Restaurant Director in high-end luxury venues. A career that was full of memorable moments and
+          achievements like being awarded Sommelier of the year by Wine Magazine or placing in the top 3 for 3
+          consecutive years in the most prestigious national sommelier competition in my country. My long and successful
+          career in hospitality will hopefully be very useful in terms of transferable soft skill to my new and
+          ambitious professional goals.
+        </p>
+        <p>
+          Since I discover how happy coding made me feel, I've been learning as much as I can from online courses,
+          tutorials and numerous websites from Stack Overflow to W3Schools or MDN. Finally, the opportunity arose with
+          the first coding Bootcamp in the UK promoted by Trilogy at the University of Birmingham. Excited with the
+          perspective of having structured and intense learning, I immediately enrolled and I am currently in the
+          initial stage of the course.
+        </p>
+        <p>
+          In this Portfolio website, I will be posting the projects I will be making in Bootcamp. For now, and just for
+          fun, I have posted some websites I have made before starting the course and that are currently live. I hope
+          you like them.
+        </p>
+      </section>
+    </div>
+    <footer class="wrapper">
+      <p>&copy; All rights reserved</p>
+    </footer>
+
+    <img id="myImage" src="/assets/my-photo-cutout.png" alt="Eduardo photo" />
+
+    <!-- Navegation Js -->
+    <script src="/main-nav.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="../portfolio/portfolio.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 'auto',
+        freeMode: true,
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+        mousewheel: true,
+      });
+    </script>
+  </body>
+</html>
