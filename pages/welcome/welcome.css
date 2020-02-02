@@ -4,10 +4,41 @@
   align-items: flex-start;
   padding: 0 20%;
 }
-.heading {
+
+.heading-cv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   margin-top: 3em;
+}
+
+.heading {
   font-weight: 400;
 }
+
+.curriculum a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.curriculum a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ff9800;
+  width: 100%;
+  height: 2px;
+  transform: scale(0, 1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.curriculum a:hover::after {
+  transform: scale(1, 1);
+}
+
 .sub-heading {
   font-weight: 400;
   margin-bottom: 4em;
@@ -30,6 +61,11 @@
 
 .bio-content p {
   padding-bottom: 3em;
+}
+
+.contact-btn:hover {
+  background: #ff9800;
+  color: white;
 }
 
 @media only screen and (max-width: 800px) {

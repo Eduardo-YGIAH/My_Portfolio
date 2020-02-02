@@ -52,6 +52,8 @@
   font-weight: 600;
   border-radius: 6px;
   padding: 10px 0;
+  background: #ffffff;
+  color: black;
 }
 
 .contact-form .btn:hover {

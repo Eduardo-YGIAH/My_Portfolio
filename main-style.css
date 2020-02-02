@@ -18,11 +18,9 @@ body {
   z-index: 0.5;
 }
 
-/* .nav-container {
-  display: none;
-} */
-
-/* Buttons */
+a {
+  text-decoration: none;
+}
 
 .btn-large {
   font-family: 'poppins', sans-serif;
@@ -43,6 +41,7 @@ footer {
 
 footer p {
   font-size: 12px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
